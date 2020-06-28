@@ -1,0 +1,90 @@
+#    ,---.                                  ,--.
+#   /  O  \,--.  ,--.,---.  ,---. ,--,--. ,-|  | ,---.
+#  |  .-.  |\  `'  /| .-. || .--'' ,-.  |' .-. || .-. |
+#  |  | |  | \    / ' '-' '\ `--.\ '-'  |\ `-' |' '-' '
+#  `--' `--'  `--'   `---'  `---' `--`--' `---'  `---'
+# Almost all the things in the website can be customized from here.
+# Changing title and description according to your website requirement is important.
+#
+title: Casa de Cultură
+description: Contemporary art space and rustic homestay in the Romanian countryside
+email: hi@casadecultura.net # The contact form submission will be done to this email address.
+phone:
+url: https://casadecultura.com
+default-image: /assets/images/avocado-cover.png # This image will be shown on sharing any page on social media. For example: Homepage, about page etc. This image should be bigger than 200x200px. This image is not used for posts. Posts use their own image mentioned in individual posts.
+
+# Author details shows up at the end of every article
+author:
+  name: Ionuț Bizău
+  bio: "It's my home."
+  image: author-image.jpg # Choose a 200x200px image and place it inside /images directory.
+  facebook: https://facebook.com
+
+# Kramdown is supported by Github
+markdown: kramdown
+
+# Mathjax setting
+enable-mathjax: no
+
+# Charts
+enable-chartjs: yes
+
+# This defines how the URLs should look like
+permalink: /blog/:title/
+
+# Pagination - Posts per page in the blog index
+paginate: 10
+paginate_path: /blog/page:num/
+
+# Define titles for the sections
+name: John Doe
+projects: I work
+
+# Jekyll will read contents inside _pages only if we tell it to
+include:
+  - _pages
+
+# Google Ananlytics Tracker
+analytics: "" # Sign up with Google analytics and replce with your analytics ID
+
+# Tidio chat script
+# Signup with tidio.com and navigate to https://www.tidio.com/panel/channels/widget/integration to find your chat script
+# tidio-chat-script: '<script src="//code.tidio.co/atcbwe5jq0ftiidebmmfwybic3nagfnf.js" async></script>'
+
+# Share buttons
+share: no # Change it to `no` to remove share buttons.
+
+#
+#   ,-----.                                                    ,--.
+#  '  .--./ ,---. ,--,--,--. ,---. ,--.--. ,---.  ,---.  ,---. `--' ,---. ,--,--,
+#  |  |    | .-. ||        || .-. ||  .--'| .-. :(  .-' (  .-' ,--.| .-. ||      \
+#  '  '--'\' '-' '|  |  |  || '-' '|  |   \   --..-'  `).-'  `)|  |' '-' '|  ||  |
+#   `-----' `---' `--`--`--'|  |-' `--'    `----'`----' `----' `--' `---' `--''--'
+#                           `--'
+# All compression variables are declared here.
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+#compress.html
+compress_html:
+  clippings: [html, head, meta, title, link, body, div, script, header, footer]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+####################################################################################################
+
+exclude:
+  - .git
+
+# These plugins are supported by github by default and can be installed locally using ruby gems
+plugins:
+  - jekyll-sitemap # Adds sitemap to the website at /sitemap.xml
+  - jekyll-paginate # Used for sorting posts by page numbers.
+  - jekyll-seo-tag # Adds all the important SEO meta tags by default.

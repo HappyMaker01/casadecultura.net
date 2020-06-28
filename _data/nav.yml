@@ -1,0 +1,14 @@
+- title: Home
+  link: '/'
+  
+- title: About
+  link: '/about/'
+
+- title: Contact
+  link: '/contact/'
+
+- title: Booking
+  link: '/booking/'
+  
+#- title: Blog
+#  link: '/blog/'

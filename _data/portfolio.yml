@@ -1,0 +1,9 @@
+- title: The twin room
+  category: Rooms
+  image: /assets/images/rooms/the-twin-room-1.jpg
+  link: /booking/#the-twin-room
+
+- title: The double room
+  category: Rooms
+  image: /assets/images/rooms/the-double-room-1.jpg
+  link: /booking/#the-double-room
