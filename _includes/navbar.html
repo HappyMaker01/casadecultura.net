@@ -13,10 +13,9 @@
 				{% for item in site.data.nav %}
 				<a class="nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
 				{% endfor %}
-				<!--
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Rooms
+						Spaces
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						{% for item in site.data.portfolio %}
@@ -24,7 +23,6 @@
 						{% endfor %}
 					</div>
 				</li>
-				-->
 			</div>
 		</div>
 	</div>
