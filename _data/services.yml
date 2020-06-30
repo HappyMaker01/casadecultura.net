@@ -1,17 +1,17 @@
 - title: Art space
   description:
   fa-icon: fa-object-group
-  link:
+  link: /art/
 
 - title: Cultural events
   description:
   fa-icon: fa-handshake-o
-  link:
+  link: /events/
 
 - title: Rustic homestay
   description:
   fa-icon: fa-tree
-  link:
+  link: /spaces/
 
 - title: Art residencies
   description:
