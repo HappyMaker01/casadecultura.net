@@ -1,6 +1,11 @@
-- title: Contemporary art space
+- title: Art space
   description:
   fa-icon: fa-object-group
+  link:
+
+- title: Cultural events
+  description:
+  fa-icon: fa-handshake-o
   link:
 
 - title: Rustic homestay
