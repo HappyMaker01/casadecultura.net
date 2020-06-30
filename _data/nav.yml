@@ -4,6 +4,12 @@
 - title: About
   link: '/about/'
 
+- title: Spaces
+  link: '#'
+
+- title: Events
+  link: '/events/'
+
 - title: Contact
   link: '/contact/'
 
