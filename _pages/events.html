@@ -5,16 +5,25 @@ permalink: /events/
 ---
 
 <div id="events">
-    <h1>Past events</h1>
-    {% assign events = site.data.events | sort:"date" | reverse %}
-    {% for event in events %}
-	<div class="row">
-		<div class="col-md-12">
-			<h2>{{ event.title }}</h2>
-            <span>{{ event.date|date:"%b %e, %Y" }}</span>
-            <p>{{ event.description }}</p>
-		</div>
+    <div class="row">
+        <div class="col-md-6">        
+            <h1>Past events</h1>
+            {% assign events = site.data.events | sort:"date" | reverse %}
+            {% for event in events %}
+              <h2>{{ event.title }}</h2>
+              <div class="row">
+                <div class="col-md-12 meta">
+                    <p><small><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ event.date|date:"%b %e, %Y" }}</span></small></p>
+                </div>
+              </div>
+              <p>{{ event.description }}</p>
+            {% endfor %}
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+            <p>We organize various cultural gatherings. There is no schedule. If you want to be notified about what is happening, please subscribe to our newsletter.</p>
+            <p>{% include subscribe.html %}</p>
+        </div>
     </div>
-    {% endfor %}
-	<hr>
 </div>

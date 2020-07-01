@@ -6,65 +6,19 @@ description: Say hello to us!
 ---
 
 <div class="row">
-  <div class="col-md-12">
-    <h2>You write to us</h2>
-    <p>
-      <small>If you have any questions, please send us an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</small>
-    </p>
-  </div>
-  <div class="col-md-12">
-    <h2>We write to you</h2>
-    <p>
-      <small>If you want us to contact you whenever some events happen, sign up!</small>
-    </p>
-  </div>
-  <div class="col-md-4">
-    				<!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="https://casadecultura.us10.list-manage.com/subscribe/post?u=a3b87f6529cbaf6739996b1e7&amp;id=5434d8d8f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                <div id="mc_embed_signup_scroll">
-                  <div class="form-group">
-                    <label for="mce-EMAIL">Subscribe</label>
-                    <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email" required="">
-                  </div>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-block btn-success">
-                </div>
-              </form>
-            </div>
-            <!--End mc_embed_signup-->
-  </div>
-</div>
-<div class="row">
-  {% comment %}
   <div class="col-md-6">
-    <div class="map">
-      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.95827424526215%2C45.26083801972136%2C21.964067816734314%2C45.264047451288576&amp;layer=mapnik&amp;marker=45.2625%2C21.9611" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=45.2625&amp;mlon=21.9611#map=18/45.2625/21.9611">View Larger Map</a></small>
-    </div>
+    <h2>Social media</h2>
+    <p>Social media can be a good way to keep in touch. But as we all know, social media apps come and go. Those listed here will probably not be around forever. So if you really want to get important updates from us, please subscribe with your email.</p>
+    <p><span class="fa fa-instagram"></span> <a target="_blank" href="http://instagram.com/casa.de.cultura">casa.de.cultura</a></p>
+    <p><span class="fa fa-facebook"></span> <a target="_blank" href="https://www.facebook.com/casadecultura.cuptoare/">casadecultura.cuptoare</a></p>
+    <h2>Subscribe with email</h2>
+    <p><small>Sometimes we want to send you an email. Not marketing.</small></p>
+    <p>But we do organize some <a href="/events/">events</a> that we want our friends to know, just in case they want to drop by. So, leave us your email below if you are curious.</p>
+      {% include subscribe.html %}
   </div>
-  {% endcomment %}
-  {% comment %}
   <div class="col-md-6">
-    <form
-      class="wj-contact"
-      action="https://formspree.io/{{site.email}}"
-      method="POST"
-    >
-      <input type="email" name="email" placeholder="Email Address" />
-      <textarea
-        type="text"
-        name="content"
-        rows="6"
-        placeholder="Message"
-      ></textarea>
-      <input type="hidden" name="_next" value="<REDIRECTION LINK> " />
-      <input
-        type="hidden"
-        name="_subject"
-        value="New Contact Form Submission"
-      />
-      <input type="text" name="_gotcha" style="display:none" />
-      <input class="btn" type="submit" value="Submit" />
-    </form>
+    <img src="/assets/images/details/workbench.jpg" />
+    <h2>Want to say something?</h2>
+    <p>Just send an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</small></p>
   </div>
-  {% endcomment %}
 </div>

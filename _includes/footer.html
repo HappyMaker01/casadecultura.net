@@ -13,24 +13,12 @@
         </div>
       </div>
       <div class="col-md-2">
-        <h3>Pages</h3>
-        <ul>
-          {% for item in site.data.nav %}
-          <li><a href="{{item.link}}">{{item.title}}</a></li>
-          {% endfor %}
-        </ul>
       </div>
       <div class="col-md-3">
-        {% comment %}
-        <h3>Latest Posts</h3>
-        {% for post in site.posts limit: 4 %}
-        <li><a href="{{post.url}}">{{post.title}}</a></li>
-        {% endfor %}
-        {% endcomment %}
+
       </div>
       <div class="col-md-3">
-        <h3>Contact Us</h3>
-        <p><span class="fa fa-envelope"></span> <a href="mailto:{{site.email}}">{{site.email}}</a></p>
+        <h3>Find us elsewhere</h3>
         <p><span class="fa fa-instagram"></span> <a target="_blank" href="http://instagram.com/casa.de.cultura">casa.de.cultura</a></p>
         <p><span class="fa fa-facebook"></span> <a target="_blank" href="https://www.facebook.com/casadecultura.cuptoare/">casadecultura.cuptoare</a></p>
         <!--Start of Tidio.to Script-->
