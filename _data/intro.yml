@@ -1,0 +1,16 @@
+above:
+  image: "above-crop"
+  keyword: "Imagine"
+  text: "living in a carefully restored traditional house<br />in one of the greenest areas of Romania"
+barn:
+  image: "barn-crop"
+  keyword: "Surrounded by"
+  text: "musical instruments, contemporary art<br />and antique Chinese furniture"
+studio:
+  image: "studio-crop"
+  keyword: "Call it"
+  text: "a place to create"
+terrace:
+  image: "terrace-crop"
+  keyword: "Call it"
+  text: "a place to live"
